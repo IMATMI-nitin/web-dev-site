@@ -1,0 +1,78 @@
+.footer {
+  min-height: 30vh;
+  background: rgb(250, 250, 250);
+  padding: 3rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.footer h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #242582;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-contact {
+  width: 40%;
+}
+
+.footer-contact img {
+  width: 180px;
+  margin-bottom: 30px;
+}
+
+.footer-contact p {
+  font-family: "Saira", sans-serif;
+  font-weight: bold;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  font-family: "Saira", sans-serif;
+  font-weight: bold;
+  display: block;
+  color: black;
+}
+
+.footer-services {
+  width: 20%;
+}
+
+.footer-main p {
+  font-family: "Saira", sans-serif;
+  font-size: 1.1rem;
+}
+
+.footer-main a{
+  text-decoration: none;
+  display: block;
+  font-family: "Saira", sans-serif;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.footer-company {
+  width: 20%;
+}
+.footer-other {
+  width: 20%;
+}
+
+.copyright {
+  position: absolute;
+  font-family: "Saira", sans-serif;
+  bottom: -5px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: rgb(90, 90, 90);
+}

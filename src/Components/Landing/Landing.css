@@ -1,0 +1,232 @@
+.landing-page {
+  min-height: 100vh;
+  position: relative;
+  z-index: 0;
+  /* background-image: url("../../Assets/Images/landing1.jpg"); */
+  background-position-x: center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.carousel-item{
+  height: 100%;
+  padding-top: 10vh;
+}
+
+.landing-content1{
+  width: 100%;
+  height: 100%;
+}
+
+.landing-content1-inner{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%
+}
+
+.landing-content2-inner{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%
+}
+
+.landing-content3-inner{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%
+}
+
+.landing-content1-inner img{
+  width: 60%;
+}
+.landing-content2-inner img{
+  width: 40%;
+}
+.landing-content3-inner img{
+  width: 50%;
+}
+
+.landing-content1-main h1,.landing-content2-main h1,.landing-content3-main h1{
+  color: #242582;
+  font-size: 3.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow: 1px 2px 3px rgba(81,67,21,0.6);
+}
+
+.landing-content1-main p{
+  font-family: 'Saira', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.carousel-item button{
+  background-color: #F64C72;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 15px;
+  border-radius: 35px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+ .carousel-item .landing-content1-inner button{
+  margin-top: 62px;
+}
+
+.landing-page button:hover{
+  transform: scale(1.1);
+}
+
+.landing-about{
+  padding-top: 50px;
+  height: 80vh;
+  background-color: #242582;
+  color: white;
+}
+
+.landing-about-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.landing-about-main{
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-about-main h1{
+  font-family: 'Ubuntu',sans-serif;
+  color: #F64C72;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.landing-about-main p{
+  font-family: 'Saira',sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.landing-about-main a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-family: 'Saira',sans-serif;
+  font-size: 1.3rem;
+}
+
+.landing-about-img{
+  width: 30%;
+}
+
+.landing-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.landing-card{
+  width: 300px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.landing-card img{
+  width: 100%;
+  transform: scale(1);
+  transition: 200ms ease-in-out;
+}
+
+.landing-card img:hover{
+  transform: scale(1.1);
+}
+
+.landing-card a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #F64C72;
+  margin-top: -10px;
+  z-index: 1;
+  width: 120px;
+  text-align: center;
+  font-family: 'Saira',sans-serif;
+}
+
+.testimonial{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10vh 0;
+}
+
+.testimonial-main{
+  width: 60%;
+  font-family: 'Saira',sans-serif;
+  margin-bottom: 30px;
+}
+
+.testimonial h1{
+  font-family: 'Ubuntu',sans-serif;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.testimonial img{
+  width: 30px;
+  filter: invert(100%);
+  margin-bottom: 30px;
+}
+
+.testimonial1{
+  background-color: #242582;
+}
+
+.testimonial2{
+  background-color: #e7500a;
+}
+
+.testimonial3{
+  background-color: #410b74;
+}
+
+.landing-page .techs {
+  margin: 25vh 0;
+}

@@ -1,0 +1,50 @@
+.careers {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 10vh;
+  min-height: 100vh;
+  margin-bottom: 30px;
+}
+
+.career {
+  display: inline-block;
+  border-left: 3px solid #410b74;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 200ms ease-in-out;
+  margin: 20px;
+  width: 300px;
+}
+
+.career:hover{
+  box-shadow: rgba(246, 76, 114, 0.2) 0px 8px 24px;
+}
+
+.careers-inner{
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.careers img{
+  width: 40%;
+  margin-left: 30px;
+}
+
+.careers-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.careers h2 {
+  font-family: MontserratMedium;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
